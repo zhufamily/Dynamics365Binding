@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Dynamics365CustomBinding</id>
+    <version>1.0.0</version>
+    <authors>Ning Zhu</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Microsoft.Azure.WebJobs" version="3.0.31" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Azure.WebJobs.Core" version="3.0.31" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.PowerPlatform.Dataverse.Client" version="0.6.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Ning Zhu\source\repos\TIIIDemoFunct\Dynamics365CustomBinding\bin\Release\net6.0\Dynamics365CustomBinding.dll" target="lib\net6.0\Dynamics365CustomBinding.dll" />
+  </files>
+</package>

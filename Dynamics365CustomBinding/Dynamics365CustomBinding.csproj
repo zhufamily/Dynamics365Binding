@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	<VersionPrefix>1.0.3</VersionPrefix>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Ning Zhu</Authors>
+    <Company>Procentrix Inc</Company>
+    <AssemblyVersion>1.0.3.1</AssemblyVersion>
+    <FileVersion>1.0.3.1</FileVersion>
+    <PackageReleaseNotes>Added readme and some other supporting stuff, ready for test</PackageReleaseNotes>
+    <Description>Custom binding for Dyancmics 365 inside azure function for .Net 6.x</Description>
+    <Copyright>Free software</Copyright>
+    <PackageReadmeFile>ReadMe.md</PackageReadmeFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="D365BindingExtension.cs" />
+    <Compile Remove="D365BindingStartup.cs" />
+    <Compile Remove="D365OutputBindingExtension.cs" />
+    <Compile Remove="D365OutputBindingStartup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.WebJobs" Version="3.0.31" />
+    <PackageReference Include="Microsoft.Azure.WebJobs.Core" Version="3.0.31" />
+    <PackageReference Include="Microsoft.PowerPlatform.Dataverse.Client" Version="0.6.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="ReadMe.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
