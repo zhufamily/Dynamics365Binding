@@ -12,7 +12,9 @@
 
 ## Installation
 
-Nuget artifact source url https://pkgs.dev.azure.com/pcxhub-Procentrix/Procentrix.Crm.Base/_packaging/PcxCrmBase/nuget/v3/index.json
+It is available on public Nuget
+
+It is also avaliable at PCX Nuget artifact source url https://pkgs.dev.azure.com/pcxhub-Procentrix/Procentrix.Crm.Base/_packaging/PcxCrmBase/nuget/v3/index.json
 
 Install the package and all dependencies.
 
@@ -54,7 +56,7 @@ If all you need more complicated stuff than just to send some commands to Dyancm
 
 ```sh
 [FunctionName("<your_function_name>")]
-public static string ProcessSubpoenaWorker(<your_function_trigger>,
+public static string <your_function_name>(<your_function_trigger>,
 [Dynamics365Client("%<your_dynamics_365_connection_string>%")] ServiceClient client,
 ILogger log)
 {
