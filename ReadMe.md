@@ -38,8 +38,8 @@ ILogger log)
 {
     log.LogInformation($"Function triggered");
     
-    Microsoft.Xrm.Sdk.Entity bpi= new Microsoft.Xrm.Sdk.Entity("sgs_batchphoneinput");
-    bpi["sgs_name"] = "Test Phone Batch";
+    Microsoft.Xrm.Sdk.Entity bpi= new Microsoft.Xrm.Sdk.Entity("account");
+    bpi["name"] = "Test Phone Batch";
     CreateRequest req = new CreateRequest();
     req.Target = bpi;
         
