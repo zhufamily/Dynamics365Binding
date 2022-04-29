@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "Microsoft.Azure.WebJobs/3.0.31": {
+      "Microsoft.Azure.WebJobs/3.0.32": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Azure.WebJobs.Core": "3.0.31",
+          "Microsoft.Azure.WebJobs.Core": "3.0.32",
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.Configuration.Abstractions": "2.1.1",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "2.1.0",
@@ -25,7 +25,7 @@
           "lib/netstandard2.0/Microsoft.Azure.WebJobs.Host.dll": {}
         }
       },
-      "Microsoft.Azure.WebJobs.Core/3.0.31": {
+      "Microsoft.Azure.WebJobs.Core/3.0.32": {
         "type": "package",
         "dependencies": {
           "System.ComponentModel.Annotations": "4.4.0",
@@ -372,7 +372,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.PowerPlatform.Dataverse.Client/0.6.1": {
+      "Microsoft.PowerPlatform.Dataverse.Client/0.6.6": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Caching.Memory": "3.1.8",
@@ -1691,29 +1691,29 @@
     }
   },
   "libraries": {
-    "Microsoft.Azure.WebJobs/3.0.31": {
-      "sha512": "Jn6E7OgT7LkwVB6lCpjXJcoQIvKrbJT+taVLA4CekEpa21pzZv6nQ2sYRSNzPz5ul3FAcYhmrCQgV7v2iopjgA==",
+    "Microsoft.Azure.WebJobs/3.0.32": {
+      "sha512": "uN8GsFqPFHHcSrwwj/+0tGe6F6cOwugqUiePPw7W3TL9YC594+Hw8GBK5S/fcDWXacqvRRGf9nDX8xP94/Yiyw==",
       "type": "package",
-      "path": "microsoft.azure.webjobs/3.0.31",
+      "path": "microsoft.azure.webjobs/3.0.32",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Azure.WebJobs.Host.dll",
-        "microsoft.azure.webjobs.3.0.31.nupkg.sha512",
+        "microsoft.azure.webjobs.3.0.32.nupkg.sha512",
         "microsoft.azure.webjobs.nuspec",
         "webjobs.png"
       ]
     },
-    "Microsoft.Azure.WebJobs.Core/3.0.31": {
-      "sha512": "iStV0MQ9env8R2F+8cbaynMK4TDkU6bpPVLdOzIs83iriHYMF+uWF6WZWI8ZJahWR37puQWc86u1YCsoIZEocA==",
+    "Microsoft.Azure.WebJobs.Core/3.0.32": {
+      "sha512": "pW5lyF0Tno1cC2VkmBLyv7E3o5ObDdbn3pfpUpKdksJo9ysCdQTpgc0Ib99wPHca6BgvoglicGbDYXuatanMfg==",
       "type": "package",
-      "path": "microsoft.azure.webjobs.core/3.0.31",
+      "path": "microsoft.azure.webjobs.core/3.0.32",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/netstandard2.0/Microsoft.Azure.WebJobs.dll",
         "lib/netstandard2.0/Microsoft.Azure.WebJobs.xml",
-        "microsoft.azure.webjobs.core.3.0.31.nupkg.sha512",
+        "microsoft.azure.webjobs.core.3.0.32.nupkg.sha512",
         "microsoft.azure.webjobs.core.nuspec",
         "webjobs.png"
       ]
@@ -2162,10 +2162,10 @@
         "runtime.json"
       ]
     },
-    "Microsoft.PowerPlatform.Dataverse.Client/0.6.1": {
-      "sha512": "8f9Yu9qo3gDAsj9qfNbVMO0cSa1U2UaMPJiJ/IJPMrHDF+9kW8FtDqKJrd7b00MHUsfGPoVoLjkLtE9zTwzDew==",
+    "Microsoft.PowerPlatform.Dataverse.Client/0.6.6": {
+      "sha512": "DgFH/DNQlQSnz1zelw9FuzznOken+L9QDMr5w6qNI3MmfdPDSa5ye9uq2X08B+lYip8cmafLBUjfxuzW82EMLA==",
       "type": "package",
-      "path": "microsoft.powerplatform.dataverse.client/0.6.1",
+      "path": "microsoft.powerplatform.dataverse.client/0.6.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2188,7 +2188,7 @@
         "lib/netcoreapp3.1/Microsoft.PowerPlatform.Dataverse.Client.dll",
         "lib/netcoreapp3.1/Microsoft.PowerPlatform.Dataverse.Client.xml",
         "lib/netcoreapp3.1/Microsoft.Xrm.Sdk.dll",
-        "microsoft.powerplatform.dataverse.client.0.6.1.nupkg.sha512",
+        "microsoft.powerplatform.dataverse.client.0.6.6.nupkg.sha512",
         "microsoft.powerplatform.dataverse.client.nuspec"
       ]
     },
@@ -6049,9 +6049,9 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.Azure.WebJobs >= 3.0.31",
-      "Microsoft.Azure.WebJobs.Core >= 3.0.31",
-      "Microsoft.PowerPlatform.Dataverse.Client >= 0.6.1"
+      "Microsoft.Azure.WebJobs >= 3.0.32",
+      "Microsoft.Azure.WebJobs.Core >= 3.0.32",
+      "Microsoft.PowerPlatform.Dataverse.Client >= 0.6.6"
     ]
   },
   "packageFolders": {
@@ -6060,20 +6060,20 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.3",
+    "version": "1.0.5",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ning Zhu\\source\\repos\\TIIIDemoFunct\\Dynamics365CustomBinding\\Dynamics365CustomBinding.csproj",
+      "projectUniqueName": "C:\\Users\\Ning Zhu\\Documents\\GitHub\\Dynamics365Binding\\Dynamics365CustomBinding\\Dynamics365CustomBinding.csproj",
       "projectName": "Dynamics365CustomBinding",
-      "projectPath": "C:\\Users\\Ning Zhu\\source\\repos\\TIIIDemoFunct\\Dynamics365CustomBinding\\Dynamics365CustomBinding.csproj",
+      "projectPath": "C:\\Users\\Ning Zhu\\Documents\\GitHub\\Dynamics365Binding\\Dynamics365CustomBinding\\Dynamics365CustomBinding.csproj",
       "packagesPath": "C:\\Users\\Ning Zhu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ning Zhu\\source\\repos\\TIIIDemoFunct\\Dynamics365CustomBinding\\obj\\",
+      "outputPath": "C:\\Users\\Ning Zhu\\Documents\\GitHub\\Dynamics365Binding\\Dynamics365CustomBinding\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Ning Zhu\\source\\repos\\TIIIDemoFunct\\NuGet.Config",
+        "C:\\Users\\Ning Zhu\\Documents\\GitHub\\Dynamics365Binding\\NuGet.Config",
         "C:\\Users\\Ning Zhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -6103,15 +6103,15 @@
         "dependencies": {
           "Microsoft.Azure.WebJobs": {
             "target": "Package",
-            "version": "[3.0.31, )"
+            "version": "[3.0.32, )"
           },
           "Microsoft.Azure.WebJobs.Core": {
             "target": "Package",
-            "version": "[3.0.31, )"
+            "version": "[3.0.32, )"
           },
           "Microsoft.PowerPlatform.Dataverse.Client": {
             "target": "Package",
-            "version": "[0.6.1, )"
+            "version": "[0.6.6, )"
           }
         },
         "imports": [
@@ -6129,7 +6129,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

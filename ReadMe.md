@@ -6,15 +6,11 @@
 - Input / output binding for Dynamcis 365 Service Client
 ## Dependencies
 - .Net 6.x
-- Microsoft.Azure.WebJob 3.0.31+
-- Microsoft.Azure.WebJob.Core 3.0.31+
-- Microsoft.PowerPlatform.Dataverse.Client 0.6.1+
+- Microsoft.Azure.WebJob 3.0.32+
+- Microsoft.Azure.WebJob.Core 3.0.32+
+- Microsoft.PowerPlatform.Dataverse.Client 0.6.6+
 
 ## Installation
-
-It is available on public Nuget
-
-It is also avaliable at PCX Nuget artifact source url https://pkgs.dev.azure.com/pcxhub-Procentrix/Procentrix.Crm.Base/_packaging/PcxCrmBase/nuget/v3/index.json
 
 Install the package and all dependencies.
 
@@ -24,7 +20,7 @@ PM> Install-Package Dynamics365CustomBinding -version <latest_version>
 
 ## Samples
 
-Dynamics 365 Binding can be used as in following samples
+Dynamics 365 Binding can be used as in following ways
 
 ### Output Binding Usage
 
@@ -39,7 +35,7 @@ ILogger log)
     log.LogInformation($"Function triggered");
     
     Microsoft.Xrm.Sdk.Entity bpi= new Microsoft.Xrm.Sdk.Entity("account");
-    bpi["name"] = "Test Phone Batch";
+    bpi["name"] = "Test User";
     CreateRequest req = new CreateRequest();
     req.Target = bpi;
         
@@ -56,7 +52,7 @@ If all you need more complicated stuff than just to send some commands to Dyancm
 
 ```sh
 [FunctionName("<your_function_name>")]
-public static string <your_function_name>(<your_function_trigger>,
+public static string ProcessSubpoenaWorker(<your_function_trigger>,
 [Dynamics365Client("%<your_dynamics_365_connection_string>%")] ServiceClient client,
 ILogger log)
 {

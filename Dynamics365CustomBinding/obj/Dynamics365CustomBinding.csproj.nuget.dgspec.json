@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ning Zhu\\source\\repos\\TIIIDemoFunct\\Dynamics365CustomBinding\\Dynamics365CustomBinding.csproj": {}
+    "C:\\Users\\Ning Zhu\\Documents\\GitHub\\Dynamics365Binding\\Dynamics365CustomBinding\\Dynamics365CustomBinding.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ning Zhu\\source\\repos\\TIIIDemoFunct\\Dynamics365CustomBinding\\Dynamics365CustomBinding.csproj": {
-      "version": "1.0.3",
+    "C:\\Users\\Ning Zhu\\Documents\\GitHub\\Dynamics365Binding\\Dynamics365CustomBinding\\Dynamics365CustomBinding.csproj": {
+      "version": "1.0.5",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ning Zhu\\source\\repos\\TIIIDemoFunct\\Dynamics365CustomBinding\\Dynamics365CustomBinding.csproj",
+        "projectUniqueName": "C:\\Users\\Ning Zhu\\Documents\\GitHub\\Dynamics365Binding\\Dynamics365CustomBinding\\Dynamics365CustomBinding.csproj",
         "projectName": "Dynamics365CustomBinding",
-        "projectPath": "C:\\Users\\Ning Zhu\\source\\repos\\TIIIDemoFunct\\Dynamics365CustomBinding\\Dynamics365CustomBinding.csproj",
+        "projectPath": "C:\\Users\\Ning Zhu\\Documents\\GitHub\\Dynamics365Binding\\Dynamics365CustomBinding\\Dynamics365CustomBinding.csproj",
         "packagesPath": "C:\\Users\\Ning Zhu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ning Zhu\\source\\repos\\TIIIDemoFunct\\Dynamics365CustomBinding\\obj\\",
+        "outputPath": "C:\\Users\\Ning Zhu\\Documents\\GitHub\\Dynamics365Binding\\Dynamics365CustomBinding\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ning Zhu\\source\\repos\\TIIIDemoFunct\\NuGet.Config",
+          "C:\\Users\\Ning Zhu\\Documents\\GitHub\\Dynamics365Binding\\NuGet.Config",
           "C:\\Users\\Ning Zhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -48,15 +48,15 @@
           "dependencies": {
             "Microsoft.Azure.WebJobs": {
               "target": "Package",
-              "version": "[3.0.31, )"
+              "version": "[3.0.32, )"
             },
             "Microsoft.Azure.WebJobs.Core": {
               "target": "Package",
-              "version": "[3.0.31, )"
+              "version": "[3.0.32, )"
             },
             "Microsoft.PowerPlatform.Dataverse.Client": {
               "target": "Package",
-              "version": "[0.6.1, )"
+              "version": "[0.6.6, )"
             }
           },
           "imports": [
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

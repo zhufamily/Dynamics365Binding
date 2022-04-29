@@ -6,13 +6,11 @@
 - Input / output binding for Dynamcis 365 Service Client
 ## Dependencies
 - .Net 6.x
-- Microsoft.Azure.WebJob 3.0.31+
-- Microsoft.Azure.WebJob.Core 3.0.31+
-- Microsoft.PowerPlatform.Dataverse.Client 0.6.1+
+- Microsoft.Azure.WebJob 3.0.32+
+- Microsoft.Azure.WebJob.Core 3.0.32+
+- Microsoft.PowerPlatform.Dataverse.Client 0.6.6+
 
 ## Installation
-
-Nuget artifact source url https://pkgs.dev.azure.com/pcxhub-Procentrix/Procentrix.Crm.Base/_packaging/PcxCrmBase/nuget/v3/index.json
 
 Install the package and all dependencies.
 
@@ -22,7 +20,7 @@ PM> Install-Package Dynamics365CustomBinding -version <latest_version>
 
 ## Samples
 
-Dynamics 365 Binding can be used as in following samples
+Dynamics 365 Binding can be used as in following ways
 
 ### Output Binding Usage
 
@@ -36,8 +34,8 @@ ILogger log)
 {
     log.LogInformation($"Function triggered");
     
-    Microsoft.Xrm.Sdk.Entity bpi= new Microsoft.Xrm.Sdk.Entity("sgs_batchphoneinput");
-    bpi["sgs_name"] = "Test Phone Batch";
+    Microsoft.Xrm.Sdk.Entity bpi= new Microsoft.Xrm.Sdk.Entity("account");
+    bpi["name"] = "Test User";
     CreateRequest req = new CreateRequest();
     req.Target = bpi;
         

@@ -1,0 +1,12 @@
+C:\Users\Ning Zhu\Documents\GitHub\Dynamics365Binding\Dynamics365CustomBinding\bin\Debug\net6.0\Dynamics365CustomBinding.deps.json
+C:\Users\Ning Zhu\Documents\GitHub\Dynamics365Binding\Dynamics365CustomBinding\bin\Debug\net6.0\Dynamics365CustomBinding.dll
+C:\Users\Ning Zhu\Documents\GitHub\Dynamics365Binding\Dynamics365CustomBinding\bin\Debug\net6.0\Dynamics365CustomBinding.pdb
+C:\Users\Ning Zhu\Documents\GitHub\Dynamics365Binding\Dynamics365CustomBinding\obj\Debug\net6.0\Dynamics365CustomBinding.csproj.AssemblyReference.cache
+C:\Users\Ning Zhu\Documents\GitHub\Dynamics365Binding\Dynamics365CustomBinding\obj\Debug\net6.0\Dynamics365CustomBinding.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ning Zhu\Documents\GitHub\Dynamics365Binding\Dynamics365CustomBinding\obj\Debug\net6.0\Dynamics365CustomBinding.AssemblyInfoInputs.cache
+C:\Users\Ning Zhu\Documents\GitHub\Dynamics365Binding\Dynamics365CustomBinding\obj\Debug\net6.0\Dynamics365CustomBinding.AssemblyInfo.cs
+C:\Users\Ning Zhu\Documents\GitHub\Dynamics365Binding\Dynamics365CustomBinding\obj\Debug\net6.0\Dynamics365CustomBinding.csproj.CoreCompileInputs.cache
+C:\Users\Ning Zhu\Documents\GitHub\Dynamics365Binding\Dynamics365CustomBinding\obj\Debug\net6.0\Dynamics365CustomBinding.dll
+C:\Users\Ning Zhu\Documents\GitHub\Dynamics365Binding\Dynamics365CustomBinding\obj\Debug\net6.0\refint\Dynamics365CustomBinding.dll
+C:\Users\Ning Zhu\Documents\GitHub\Dynamics365Binding\Dynamics365CustomBinding\obj\Debug\net6.0\Dynamics365CustomBinding.pdb
+C:\Users\Ning Zhu\Documents\GitHub\Dynamics365Binding\Dynamics365CustomBinding\obj\Debug\net6.0\ref\Dynamics365CustomBinding.dll
