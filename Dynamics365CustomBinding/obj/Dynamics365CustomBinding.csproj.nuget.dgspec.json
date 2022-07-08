@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\Ning Zhu\\Documents\\GitHub\\Dynamics365Binding\\Dynamics365CustomBinding\\Dynamics365CustomBinding.csproj": {
-      "version": "1.0.5",
+      "version": "1.0.6",
       "restore": {
         "projectUniqueName": "C:\\Users\\Ning Zhu\\Documents\\GitHub\\Dynamics365Binding\\Dynamics365CustomBinding\\Dynamics365CustomBinding.csproj",
         "projectName": "Dynamics365CustomBinding",
@@ -48,15 +48,15 @@
           "dependencies": {
             "Microsoft.Azure.WebJobs": {
               "target": "Package",
-              "version": "[3.0.32, )"
+              "version": "[3.0.33, )"
             },
             "Microsoft.Azure.WebJobs.Core": {
               "target": "Package",
-              "version": "[3.0.32, )"
+              "version": "[3.0.33, )"
             },
             "Microsoft.PowerPlatform.Dataverse.Client": {
               "target": "Package",
-              "version": "[0.6.6, )"
+              "version": "[1.0.4, )"
             }
           },
           "imports": [
@@ -74,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

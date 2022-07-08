@@ -6,9 +6,9 @@
 - Input / output binding for Dynamcis 365 Service Client
 ## Dependencies
 - .Net 6.x
-- Microsoft.Azure.WebJob 3.0.32+
-- Microsoft.Azure.WebJob.Core 3.0.32+
-- Microsoft.PowerPlatform.Dataverse.Client 0.6.6+
+- Microsoft.Azure.WebJob 3.0.33+
+- Microsoft.Azure.WebJob.Core 3.0.33+
+- Microsoft.PowerPlatform.Dataverse.Client 1.0.4+
 
 ## Installation
 
